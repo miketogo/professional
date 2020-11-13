@@ -1,14 +1,12 @@
 .cards__photo{
   width: 375px;
   height: 230px;
+  background-size: cover;
 }
-@media(min-width:1160px) and (max-width: 1350px){
-  .cards__photo{
 
-  }
-}
-@media(max-width: 1160px){
+@media(max-width: 1350px){
   .cards__photo{
-
+    width: 425px;
+    height: 245px;
   }
 }

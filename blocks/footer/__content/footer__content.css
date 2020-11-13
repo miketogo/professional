@@ -1,7 +1,13 @@
 .footer__content{
-  width: 1190px;
+  width: 1180px;
   display: flex;
   flex-direction: row;
   padding: 46px 0;
   align-items: center;
+  justify-content: space-between;
+}
+@media(max-width: 1350px){
+  .footer__content{
+    width: 88.87%;
+  }
 }
