@@ -1,0 +1,22 @@
+@font-face {
+    src: url('../fonts/Intro/WEB/Intro-BlackCAPS.woff2') format('woff2'),
+         url('../fonts/Intro/WEB/Intro-BlackCAPS.woff') format('woff'),
+         url('../fonts/Intro/TTF/Intro-BlackCAPS.ttf') format('truetype'),
+         url('../fonts/Intro/WEB/Intro-BlackCAPS.eot') format('eot');
+    font-family: 'Intro';
+}
+@font-face {
+    src: url('../fonts/Intro/WEB/IntroCond-BlackCAPS.woff2') format('woff2'),
+         url('../fonts/Intro/WEB/IntroCond-BlackCAPS.woff') format('woff'),
+         url('../fonts/Intro/TTF/IntroCond-BlackCAPS.ttf') format('truetype'),
+         url('../fonts/Intro/WEB/IntroCond-BlackCAPS.eot') format('eot');
+    font-family: 'IntroCond';
+}
+@font-face {
+    src: url('../fonts/Intro/WEB/Intro-LightCAPS.woff2') format('woff2'),
+         url('../fonts/Intro/WEB/IntroCond-LightCAPS.woff') format('woff'),
+         url('../fonts/Intro/TTF/IntroCond-LightCAPS.ttf') format('truetype'),
+         url('../fonts/Intro/WEB/IntroCond-LightCAPS.eot') format('eot');
+    font-family: 'IntroCond';
+    font-weight: 300;
+}

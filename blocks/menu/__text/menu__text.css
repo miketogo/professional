@@ -1,0 +1,12 @@
+.menu__text{
+  text-decoration: none;
+  font-family: 'Intro';
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #EBEAE4;
+  margin: 0;
+  padding: 0;
+  transition: font-size 0.3s ease-in-out;
+  transition: line-height 0.3s ease-in-out;
+}

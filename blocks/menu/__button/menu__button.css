@@ -1,0 +1,17 @@
+.menu__button{
+  display: flex;
+  width: 260px;
+  height: 102px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border-left: solid 1px #DFD0AE ;
+  text-decoration: none;
+  transition: width 0.3s ease-in-out;
+}
+.menu__button:last-child{
+  border-right: solid 1px #DFD0AE ;
+}
+
+

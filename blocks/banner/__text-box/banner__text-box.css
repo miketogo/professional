@@ -1,0 +1,8 @@
+.banner__text-box{
+  margin: 36px 0 0 31px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  width: 751px;
+  height: 159px;
+  position: relative;
+}

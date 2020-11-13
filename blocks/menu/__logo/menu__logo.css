@@ -1,0 +1,11 @@
+.menu__logo{
+  background-image: url(../../../images/logo/logo-mini.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 102px;
+  width: 396px;
+  border-left: solid 1px #DFD0AE ;
+  transition: background-image 0.3s ease-in-out 0.2s;
+  transition: width 0.3s ease-in-out;
+}
+

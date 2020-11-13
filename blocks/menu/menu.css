@@ -1,0 +1,8 @@
+.menu{
+  display: flex;
+  flex-direction: row;
+  height: 102px;
+  background: #3C666B;
+  justify-content: center;
+}
+

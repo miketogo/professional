@@ -1,0 +1,7 @@
+.cards__card-container{
+  min-width: 1190px;
+  width: 1190px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

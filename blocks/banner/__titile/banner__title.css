@@ -1,0 +1,11 @@
+.banner__title{
+  font-family: Intro ;
+  font-size: 24px;
+  line-height: 24px;
+  color: #EBEAE4;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 32px;
+  left: 63px;
+}
