@@ -4,9 +4,15 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media(max-width: 1350px){
+@media(min-width:720px) and (max-width: 1350px){
   .banner__container{
     width: 88.87%;
     height: 214px;
+  }
+}
+@media screen and (max-width: 720px){
+  .banner__container{
+    width: 100vw;
+    background-position: center;
   }
 }

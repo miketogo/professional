@@ -10,12 +10,23 @@
   transition: height 0.3s ease-in-out;
 }
 
-@media(max-width: 1350px){
+@media (min-width: 720px) and (max-width: 1350px){
   .menu__logo{
     border: none;
     background-image: url(../../../images/logo/logo-full.svg);
     height: 75px;
     width: 352px;
     background-size: contain;
+  }
+}
+@media(max-width:720px){
+  .menu__logo{
+    border: none;
+    width: 50px;
+    background-image: url(../../../images/logo/logo-mini.svg);
+    height: 50px;
+    background-size: contain;
+    align-self: flex-end;
+    margin-bottom: 15.5px;
   }
 }

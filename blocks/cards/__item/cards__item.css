@@ -12,9 +12,22 @@
   margin: 47px 0 0;
 }
 
-@media(max-width: 1350px){
+@media(min-width:720px) and (max-width: 1350px){
   .cards__item{
     width: 48.45%;
+    height: 300px;
+    margin: 27px 0 0;
+  }
+  .cards__item:nth-of-type(3n){
+    margin: 27px 0 0;
+  }
+  .cards__item:nth-of-type(2n){
+    margin: 27px 0 0;
+  }
+}
+@media(max-width: 720px){
+  .cards__item{
+    width: 100%;
     height: 300px;
     margin: 27px 0 0;
   }

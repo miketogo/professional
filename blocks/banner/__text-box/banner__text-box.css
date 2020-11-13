@@ -6,11 +6,19 @@
   height: 159px;
   position: relative;
 }
-@media(max-width: 1350px){
+@media(min-width:720px) and (max-width: 1350px){
   .banner__text-box{
+
     width: 90%;
-    height: 130px;
-    margin: 30px auto;
+    align-self: center;
+    border-radius: 20px;
   }
 }
-
+@media(max-width:720px){
+  .banner__text-box{
+    position: static;
+    width: 90%;
+    align-self: center;
+    border-radius: 20px;
+  }
+}

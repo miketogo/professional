@@ -4,10 +4,16 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-@media(max-width: 1350px){
+@media screen and (min-width: 720px) and (max-width: 1350px){
   .cards__card-container{
     width: 88.87%;
     justify-content: space-between;
   }
 
+}
+@media screen and (max-width: 720px){
+  .cards__card-container{
+    width: 88.87%;
+    justify-content: center;
+  }
 }
