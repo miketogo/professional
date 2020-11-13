@@ -10,3 +10,8 @@
     height: 240px;
   }
 }
+@media(max-width: 720px){
+  .cards__photo{
+    display: none;
+  }
+}

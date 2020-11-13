@@ -13,6 +13,7 @@
 @media screen and (max-width: 720px){
   .banner__container{
     width: 100vw;
+    height: 183px;
     background-position: bottom;
   }
 }

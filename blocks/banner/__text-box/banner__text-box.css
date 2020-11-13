@@ -18,8 +18,9 @@
   .banner__text-box{
     position: static;
     width: 90%;
+    height: 126px;
     align-self: center;
     border-radius: 20px;
-    margin: 10% auto 0;
+    margin: 26px auto 0;
   }
 }

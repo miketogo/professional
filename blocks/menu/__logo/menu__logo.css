@@ -20,14 +20,14 @@
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 720px){
   .menu__logo{
     border: none;
-    width: 50px;
-    background-image: url(../../../images/logo/logo-mini.svg);
-    height: 50px;
+    width: 200px;
+    background-image: url(../../../images/logo/logo-full.svg);
+    height: 27px;
     background-size: contain;
     align-self: flex-end;
-    margin-bottom: 15.5px;
+    margin-bottom: 9.44px;
   }
 }
