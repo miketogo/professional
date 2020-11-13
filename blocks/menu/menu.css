@@ -4,5 +4,11 @@
   height: 102px;
   background: #3C666B;
   justify-content: center;
+  transition: height 0.3s ease-in-out;
 }
 
+@media(max-width: 1350px){
+  .menu{
+    height: 65px;
+  }
+}

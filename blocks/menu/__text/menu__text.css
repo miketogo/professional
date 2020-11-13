@@ -10,3 +10,8 @@
   transition: font-size 0.3s ease-in-out;
   transition: line-height 0.3s ease-in-out;
 }
+@media(max-width: 1350px){
+  .menu__text{
+    display: none;
+  }
+}

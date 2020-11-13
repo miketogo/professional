@@ -3,3 +3,8 @@
   display: flex;
   justify-content: center;
 }
+@media(max-width: 1350px){
+  .banner{
+    padding: 27px 0 0;
+  }
+}

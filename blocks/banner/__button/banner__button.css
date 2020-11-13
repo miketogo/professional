@@ -10,3 +10,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@media(max-width: 1350px){
+  .banner__button{
+    width: 229.84px;
+    height: 52.1px;
+  }
+}

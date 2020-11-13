@@ -10,3 +10,13 @@
   margin: 0;
   padding: 0;
 }
+
+
+@media(max-width: 1350px){
+  .banner__button-text{
+    width: 150px;
+    height: 19px;
+    font-size: 23px;
+    line-height: 23px;
+  }
+}

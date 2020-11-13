@@ -6,3 +6,11 @@
   height: 159px;
   position: relative;
 }
+@media(max-width: 1350px){
+  .banner__text-box{
+    width: 90%;
+    height: 130px;
+    margin: 30px auto;
+  }
+}
+

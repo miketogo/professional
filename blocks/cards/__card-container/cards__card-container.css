@@ -1,7 +1,21 @@
 .cards__card-container{
-  min-width: 1190px;
   width: 1190px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+@media(max-width: 1350px){
+  .cards__card-container{
+    width: 88.87%;
+    justify-content: space-around;
+  }
+
+}
+@media(max-width: 1000px){
+  .cards__card-container{
+    width: 88.87%;
+    justify-content: space-between;
+  }
+
+}
+

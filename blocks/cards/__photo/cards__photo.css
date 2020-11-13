@@ -2,3 +2,13 @@
   width: 375px;
   height: 230px;
 }
+@media(min-width:1160px) and (max-width: 1350px){
+  .cards__photo{
+
+  }
+}
+@media(max-width: 1160px){
+  .cards__photo{
+
+  }
+}

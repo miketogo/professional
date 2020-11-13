@@ -1,5 +1,12 @@
 .banner__container{
   width: 1190px;
-  min-width: 1190px;
   height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media(max-width: 1350px){
+  .banner__container{
+    width: 88.87%;
+    height: 214px;
+  }
 }

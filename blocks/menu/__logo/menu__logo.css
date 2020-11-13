@@ -7,5 +7,15 @@
   border-left: solid 1px #DFD0AE ;
   transition: background-image 0.3s ease-in-out 0.2s;
   transition: width 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
 }
 
+@media(max-width: 1350px){
+  .menu__logo{
+    border: none;
+    background-image: url(../../../images/logo/logo-full.svg);
+    height: 65px;
+    width: 303px;
+    background-size: contain;
+  }
+}

@@ -14,4 +14,9 @@
   border-right: solid 1px #DFD0AE ;
 }
 
+@media(max-width: 1350px){
+  .menu__button{
+    display: none;
+  }
+}
 
