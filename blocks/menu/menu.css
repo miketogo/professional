@@ -22,6 +22,7 @@
 @media (max-width: 720px){
   .menu{
     width: 100%;
+    min-width: 330px;
     position: fixed;
     height: 48px;
     top: 0;
