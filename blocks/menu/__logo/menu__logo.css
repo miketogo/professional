@@ -14,8 +14,8 @@
   .menu__logo{
     border: none;
     background-image: url(../../../images/logo/logo-full.svg);
-    height: 65px;
-    width: 303px;
+    height: 75px;
+    width: 352px;
     background-size: contain;
   }
 }

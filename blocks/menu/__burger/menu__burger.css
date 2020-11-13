@@ -1,0 +1,16 @@
+.menu__burger{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/menu__burger/__content/menu__burger_content_tablet.svg);
+  width: 89.53px;
+  height: 75px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  display: none;
+}
+@media(max-width: 1350px){
+  .menu__burger{
+    display: flex;
+  }
+}
