@@ -11,9 +11,16 @@
   align-items: center;
 }
 
-@media(min-width:950px) and (max-width: 1350px){
+@media(min-width: 406px) and (max-width: 1350px){
   .banner__button{
     width: 229.84px;
+    height: 52.1px;
+    border-bottom-right-radius: 20px;
+  }
+}
+@media(max-width:405px){
+  .banner__button{
+    width: 50%;
     height: 52.1px;
     border-bottom-right-radius: 20px;
   }

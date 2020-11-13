@@ -3,13 +3,13 @@
   display: flex;
   justify-content: center;
 }
-@media(min-width:950px) and (max-width: 1350px){
+@media (min-width:720px) and (max-width: 1350px){
   .banner{
     padding: 27px 0 0;
     margin: 65px 0 0;
   }
 }
-@media screen and (max-width: 950px){
+@media (max-width:720px){
   .banner{
     padding: 27px 0 0;
     margin: 65px 0 0;

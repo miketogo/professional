@@ -10,3 +10,24 @@
   top: 68px;
   left: 63px;
 }
+@media(max-width:720px){
+  .banner__subtitle{
+    position: relative;
+    width: 90%;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 10px 0 0 10px;
+    top: 0;
+    left: 0;
+  }
+}
+@media(max-width:369px){
+  .banner__subtitle{
+    position: relative;
+    width: 90%;
+    font-size: 12px;
+    line-height: 13px;
+    margin: 20px 0 0 10px;
+    top: 0;
+    left: 0;
+}
