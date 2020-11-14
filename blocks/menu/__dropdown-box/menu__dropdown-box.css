@@ -1,0 +1,22 @@
+.menu__dropdown-box{
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  min-height: 102px;
+
+}
+.menu__dropdown-box:hover .menu__dropdown-item{
+  position: inherit;
+  transform: translate(0, 11);
+  cursor: pointer;
+ ;
+}
+.menu__dropdown-box:hover .menu__button{
+  background-color: #4b878f;
+  cursor: pointer;
+}
+@media(max-width: 1350px){
+  .menu__dropdown-box{
+    display: none;
+  }
+}

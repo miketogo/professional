@@ -3,6 +3,7 @@
   height: 230px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 @media(min-width:720px) and (max-width: 1350px){
   .banner__container{
@@ -14,6 +15,5 @@
   .banner__container{
     width: 100vw;
     height: 183px;
-    background-position: bottom;
   }
 }

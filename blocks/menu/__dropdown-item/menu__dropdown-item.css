@@ -1,0 +1,20 @@
+.menu__dropdown-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  bottom: 1000px;
+  left: 0px;
+  background-color: #3C666B;
+  border-top: solid 1px #DFD0AE;
+  text-decoration: none;
+}
+.menu__dropdown-item:hover{
+  background-color: #4b878f;
+  cursor: pointer;
+}

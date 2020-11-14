@@ -1,7 +1,7 @@
 .menu__button{
   display: flex;
   width: 260px;
-  height: 102px;
+  min-height: 102px;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -10,10 +10,9 @@
   text-decoration: none;
   transition: width 0.3s ease-in-out;
 }
-.menu__button:last-child{
+.menu__button[id='last-button']{
   border-right: solid 1px #DFD0AE ;
 }
-
 @media(max-width: 1350px){
   .menu__button{
     display: none;

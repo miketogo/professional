@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="./blocks/menu/__button/menu__button.css">
   <link rel="stylesheet" href="./blocks/menu/__text/menu__text.css">
   <link rel="stylesheet" href="./blocks/menu/__logo/menu__logo.css">
+  <link rel="stylesheet" href="./blocks/menu/__dropdown-item/menu__dropdown-item.css">
+  <link rel="stylesheet" href="./blocks/menu/__dropdown-box/menu__dropdown-box.css">
+  <link rel="stylesheet" href="./blocks/menu/__dropdown-text/menu__dropdown-text.css">
   <link rel="stylesheet" href="./blocks/banner/banner.css">
   <link rel="stylesheet" href="./blocks/banner/__container/banner__container.css">
   <link rel="stylesheet" href="./blocks/banner/__container/_content/banner__container_content_novoal.css">
@@ -32,12 +35,12 @@
   <link rel="stylesheet" href="./blocks/cards/__photo/_content/cards__photo_content_work.css">
   <link rel="stylesheet" href="./blocks/cards/__photo/_content/cards__photo_content_tarifs.css">
   <link rel="stylesheet" href="./blocks/cards/__photo/_content/cards__photo_content_contact-form.css">
+  <link rel="stylesheet" href="./blocks/cards/__photo-container/cards__photo-container.css">
   <link rel="stylesheet" href="./blocks/footer/__content/footer__content.css">
   <link rel="stylesheet" href="./blocks/footer/__logo-mart/footer__logo-mart.css">
   <link rel="stylesheet" href="./blocks/footer/__text/footer__text.css">
   <link rel="stylesheet" href="./blocks/footer/__text-container/footer__text-container.css">
   <link rel="stylesheet" href="./blocks/menu/__burger/menu__burger.css">
-  <link rel="stylesheet" href="./blocks/menu/__burger/_content/menu__burger_content_tablet.css">
   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
   <link rel="icon" href="./favicon.png" type="image/x-icon">
   <title>Профессионал</title>
@@ -48,19 +51,78 @@
         <a class="menu__burger" href="#">
 
         </a>
-        <a class="menu__button" href="#">
-          <p class="menu__text">О компании</p>
-        </a>
-        <a class="menu__button"  href="#">
-          <p class="menu__text" id="menu__text">Услуги</p>
-        </a>
+        <nav class="menu__dropdown-box">
+          <div class="menu__button" href="">
+            <p class="menu__text">О компании</p>
+          </div>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Общая Информация</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Контакты</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Перечень мкд</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Новости</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Раскрытие Информации</h3>
+          <a>
+        </nav>
+        <nav class="menu__dropdown-box">
+          <div class="menu__button" href="">
+            <p class="menu__text">Услуги</p>
+          </div>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Общая Информация</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Контакты</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text">Перечень мкд</h3>
+          <a>
+        </nav>
         <a class="menu__logo"  href="#"></a>
-        <a class="menu__button"  href="#">
-          <p class="menu__text" id="menu__text">Дома</p>
-        </a>
-        <a class="menu__button"  href="#">
-          <p class="menu__text">Документы</p>
-        </a>
+        <nav class="menu__dropdown-box">
+          <div class="menu__button" href="">
+            <p class="menu__text">Дома</p>
+          </div>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Общая Информация</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Контакты</h3>
+          <a>
+        </nav>
+        <nav class="menu__dropdown-box">
+          <div class="menu__button" href="" id="last-button">
+            <p class="menu__text">Документы</p>
+          </div>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Общая Информация</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Контакты</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Перечень мкд</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Новости</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Раскрытие Информации</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+            <h3 class="menu__dropdown-text" href="#">Раскрытие Информации</h3>
+          <a>
+          <a class="menu__dropdown-item" href="#">
+              <h3 class="menu__dropdown-text" href="#">Раскрытие Информации</h3>
+          <a>
+        </nav>
       </nav>
   </header>
   <main class="main">
@@ -79,27 +141,39 @@
     <section class="cards">
       <nav class="cards__card-container">
         <a class="cards__item">
-          <div class="cards__photo cards__photo_content_novoal"></div>
-          <h3 class="cards__text">Ново-<br> александровская</h3>
+            <div class="cards__photo-container">
+              <div class="cards__photo cards__photo_content_novoal"></div>
+            </div>
+            <h3 class="cards__text">Ново-<br> александровская</h3>
         </a>
         <a class="cards__item">
-          <div class="cards__photo cards__photo_content_strel"></div>
+          <div class="cards__photo-container">
+            <div class="cards__photo cards__photo_content_strel"></div>
+          </div>
           <h3 class="cards__text">Стрельбищенская</h3>
         </a>
         <a class="cards__item">
-          <div class="cards__photo cards__photo_content_ilmarinen"></div>
+          <div class="cards__photo-container">
+            <div class="cards__photo cards__photo_content_ilmarinen"></div>
+          </div>
           <h3 class="cards__text">Илмаринен</h3>
         </a>
         <a class="cards__item">
-          <div class="cards__photo cards__photo_content_work"></div>
+          <div class="cards__photo-container">
+            <div class="cards__photo cards__photo_content_work"></div>
+          </div>
           <h3 class="cards__text">Отчеты о работе</h3>
         </a>
         <a class="cards__item">
-          <div class="cards__photo cards__photo_content_tarifs"></div>
+          <div class="cards__photo-container">
+            <div class="cards__photo cards__photo_content_tarifs"></div>
+          </div>
           <h3 class="cards__text">Тарифы</h3>
         </a>
         <a class="cards__item">
-          <div class="cards__photo cards__photo_content_contact-form"></div>
+          <div class="cards__photo-container">
+            <div class="cards__photo cards__photo_content_contact-form"></div>
+          </div>
           <h3 class="cards__text">Связаться с нами</h3>
         </a>
       </nav>
@@ -107,7 +181,7 @@
   </main>
   <footer class="footer">
     <nav class="footer__content">
-      <a class="footer__logo-mart"></a>
+      <a class="footer__logo-mart" href="https://martsstudio.ru/" target="_blank"></a>
       <div class="footer__text-container"><p class="footer__text">Информация соответствует Стандарту раскрытия информации, утвержденному Постановлением Правительства РФ от 23.09.2010 №731 «Об утверждении стандарта раскрытия информации организациями, осуществляющими деятельность в сфере управления многоквартирными домами</p></div>
     </nav>
   </footer>
