@@ -1,8 +1,22 @@
-.swipe-menu__exit_touch-zone{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 75px;
-  width: 75px;
-  margin-right: 8.7%;
+
+
+@media (max-width: 1350px){
+  .swipe-menu__exit_touch-zone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 104px;
+    width: 104px;
+    margin-right: 4.35%;
+  }
+}
+@media (max-width: 720px){
+  .swipe-menu__exit_touch-zone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    margin-right: 4.35%;
+  }
 }

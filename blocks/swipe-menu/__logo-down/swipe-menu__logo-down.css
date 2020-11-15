@@ -1,0 +1,19 @@
+
+@media (max-width: 1350px){
+  .swipe-menu__logo-down{
+    background-image: url(../../../images/logo/logo-full.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 352px;
+    height: 49px;
+  }
+}
+@media (max-width: 720px){
+  .swipe-menu__logo-down{
+    background-image: url(../../../images/logo/logo-full.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200.88px;
+    height: 27.56px;
+  }
+}

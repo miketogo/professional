@@ -1,0 +1,19 @@
+
+@media (max-width: 1350px){
+  .swipe-menu__text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 14% 0 18%;
+    margin-top: 24px;
+  }
+}
+@media (max-width: 720px){
+  .swipe-menu__text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 14% 0 18%;
+    margin-top: 24px;
+  }
+}

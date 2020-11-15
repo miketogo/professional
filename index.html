@@ -48,6 +48,12 @@
   <link rel="stylesheet" href="./blocks/swipe-menu/__exit/swipe-menu__exit.css">
   <link rel="stylesheet" href="./blocks/swipe-menu/__logo/_touch-zone/swipe-menu__logo_touch-zone.css">
   <link rel="stylesheet" href="./blocks/swipe-menu/__exit/_touch-zone/swipe-menu__exit_touch-zone.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__text-container/swipe-menu__text-container.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__link/swipe-menu__link.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__link-text/swipe-menu__link-text.css">
+  <link rel="stylesheet" href="./blocks/stop-scrolling/stop-scrolling.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__down-container/swipe-menu__down-container.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__logo-down/swipe-menu__logo-down.css">
   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
   <link rel="icon" href="./favicon.png" type="image/x-icon">
   <title>Профессионал</title>
@@ -61,18 +67,34 @@
           <span class="menu__burger-line"></span>
 
         </nav>
-        <nav class="swipe-menu">
-          <div class="swipe-menu__up-container">
-            <div class="swipe-menu__logo_touch-zone">
-              <a class="swipe-menu__logo" href="./index.html"></a>
+          <nav class="swipe-menu">
+            <div class="swipe-menu__up-container">
+              <div class="swipe-menu__logo_touch-zone">
+                <a class="swipe-menu__logo" href="./index.html"></a>
+              </div>
+              <div class="swipe-menu__exit_touch-zone">
+                <span class="swipe-menu__exit"></span>
+              </div>
             </div>
-            <div class="swipe-menu__exit_touch-zone">
-              <span class="swipe-menu__exit"></span>
-            </div>
-          </div>
+            <nav class="swipe-menu__text-container">
+              <a class="swipe-menu__link">
+                <h2 class="swipe-menu__link-text">О компании</h2>
+              </a>
+              <a class="swipe-menu__link">
+                <h2 class="swipe-menu__link-text">Услуги</h2>
+              </a>
+              <a class="swipe-menu__link">
+                <h2 class="swipe-menu__link-text">Контакты</h2>
+              </a>
+              <a class="swipe-menu__link">
+                <h2 class="swipe-menu__link-text">Документы</h2>
+              </a>
+            </nav>
+            <a class="swipe-menu__down-container" href="./index.html">
+              <div class="swipe-menu__logo-down"></div>
+            </a>
+          </nav>
 
-
-        </nav>
         <nav class="menu__dropdown-box">
           <div class="menu__button" href="">
             <p class="menu__text">О компании</p>
@@ -107,7 +129,7 @@
             <h3 class="menu__dropdown-text">Перечень мкд</h3>
           <a>
         </nav>
-        <a class="menu__logo"  href="#"></a>
+        <a class="menu__logo"  href="./index.html"></a>
         <nav class="menu__dropdown-box">
           <div class="menu__button" href="">
             <p class="menu__text">Дома</p>

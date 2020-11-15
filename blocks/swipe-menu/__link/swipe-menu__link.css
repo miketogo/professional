@@ -1,0 +1,17 @@
+
+@media (max-width: 1350px){
+  .swipe-menu__link{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 720px){
+  .swipe-menu__link{
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
