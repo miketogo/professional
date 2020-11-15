@@ -41,6 +41,13 @@
   <link rel="stylesheet" href="./blocks/footer/__text/footer__text.css">
   <link rel="stylesheet" href="./blocks/footer/__text-container/footer__text-container.css">
   <link rel="stylesheet" href="./blocks/menu/__burger/menu__burger.css">
+  <link rel="stylesheet" href="./blocks/menu/__burger-line/menu__burger-line.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/swipe-menu.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__up-container/swipe-menu__up-container.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__logo/swipe-menu__logo.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__exit/swipe-menu__exit.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__logo/_touch-zone/swipe-menu__logo_touch-zone.css">
+  <link rel="stylesheet" href="./blocks/swipe-menu/__exit/_touch-zone/swipe-menu__exit_touch-zone.css">
   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
   <link rel="icon" href="./favicon.png" type="image/x-icon">
   <title>Профессионал</title>
@@ -48,9 +55,24 @@
 <body class="root">
   <header class="header">
       <nav class="menu">
-        <a class="menu__burger" href="#">
+        <nav class="menu__burger" href="#">
+          <span class="menu__burger-line"></span>
+          <span class="menu__burger-line"></span>
+          <span class="menu__burger-line"></span>
 
-        </a>
+        </nav>
+        <nav class="swipe-menu">
+          <div class="swipe-menu__up-container">
+            <div class="swipe-menu__logo_touch-zone">
+              <a class="swipe-menu__logo" href="./index.html"></a>
+            </div>
+            <div class="swipe-menu__exit_touch-zone">
+              <span class="swipe-menu__exit"></span>
+            </div>
+          </div>
+
+
+        </nav>
         <nav class="menu__dropdown-box">
           <div class="menu__button" href="">
             <p class="menu__text">О компании</p>
@@ -185,5 +207,8 @@
       <div class="footer__text-container"><p class="footer__text">Информация соответствует Стандарту раскрытия информации, утвержденному Постановлением Правительства РФ от 23.09.2010 №731 «Об утверждении стандарта раскрытия информации организациями, осуществляющими деятельность в сфере управления многоквартирными домами</p></div>
     </nav>
   </footer>
+  <script src="./swipe-listener.min.js"></script>
+  <script src="./jquery-3.5.1.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

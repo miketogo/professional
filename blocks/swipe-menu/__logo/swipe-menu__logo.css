@@ -1,0 +1,7 @@
+.swipe-menu__logo{
+  background-image: url(../../../images/logo/logo-mini.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 27px;
+}

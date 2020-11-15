@@ -1,11 +1,11 @@
 .menu__burger{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../../../images/menu__burger/__content/menu__burger_content_tablet.svg);
   position: absolute;
   top: 0px;
   left: 0px;
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
 }
 @media(max-width: 1350px){
   .menu__burger{
