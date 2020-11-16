@@ -8,7 +8,7 @@
  }
  @media(max-width: 1350px){
 .swipe-menu_active{
-     transform: translateX(100vw);
+    transform: translateX(100vw);
      display: flex;
      flex-direction: column;
      background: #3C666B;
