@@ -1,17 +1,24 @@
 
 @media (max-width: 1350px){
   .swipe-menu__link{
+    margin-top: 20px;
     height: 70px;
     display: flex;
     flex-direction: column;
+    padding: 0 0 0 18%;
     justify-content: center;
   }
 }
 @media (max-width: 720px){
   .swipe-menu__link{
+    padding: 0 0 0 18%;
+    margin-top: 20px;
     height: 51px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+}
+.swipe-menu__link:first-of-type{
+  margin-top: 0;
 }

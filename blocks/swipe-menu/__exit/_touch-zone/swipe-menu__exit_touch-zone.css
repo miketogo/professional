@@ -8,6 +8,7 @@
     height: 104px;
     width: 104px;
     margin-right: 4.35%;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 @media (max-width: 720px){
@@ -18,5 +19,6 @@
     height: 75px;
     width: 75px;
     margin-right: 4.35%;
+    -webkit-tap-highlight-color: transparent;
   }
 }

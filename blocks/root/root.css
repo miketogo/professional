@@ -1,6 +1,7 @@
 .root{
 background-color: #DFD0AE;
 min-width: 300px;
+-webkit-tap-highlight-color: transparent;
 }
 
 *{
