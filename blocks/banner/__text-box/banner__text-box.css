@@ -16,7 +16,6 @@
 }
 @media(max-width:720px){
   .banner__text-box{
-    position: static;
     width: 90%;
     height: 126px;
     align-self: center;
