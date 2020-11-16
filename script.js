@@ -11,3 +11,4 @@ $('.swipe-menu__exit_touch-zone').on('click', function(e){
   $('body').removeClass('stop-scrolling');
   $('.background-darker').removeClass('background-darker_active');
 });
+
