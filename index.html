@@ -21,11 +21,13 @@
   <link rel="stylesheet" href="./blocks/banner/__container/_content/banner__container_content_novoal.css">
   <link rel="stylesheet" href="./blocks/banner/__text-box/banner__text-box.css">
   <link rel="stylesheet" href="./blocks/banner/__titile/banner__title.css">
+  <link rel="stylesheet" href="./blocks/banner/__heandler/banner__heandler.css">
   <link rel="stylesheet" href="./blocks/banner/__subtitile/banner__subtitle.css">
   <link rel="stylesheet" href="./blocks/banner/__button/banner__button.css">
   <link rel="stylesheet" href="./blocks/banner/__button-text/bannre__button-text.css">
   <link rel="stylesheet" href="./blocks/cards/cards.css">
   <link rel="stylesheet" href="./blocks/cards/__card-container/cards__card-container.css">
+  <link rel="stylesheet" href="./blocks/banner/__container/_content/banner__container_content.css">
   <link rel="stylesheet" href="./blocks/cards/__item/cards__item.css">
   <link rel="stylesheet" href="./blocks/cards/__photo/cards__photo.css">
   <link rel="stylesheet" href="./blocks/cards/__photo/_content/cards__photo_content_novoal.css">
@@ -55,6 +57,14 @@
   <link rel="stylesheet" href="./blocks/stop-scrolling/stop-scrolling.css">
   <link rel="stylesheet" href="./blocks/swipe-menu/__down-container/swipe-menu__down-container.css">
   <link rel="stylesheet" href="./blocks/swipe-menu/__logo-down/swipe-menu__logo-down.css">
+  <link rel="stylesheet" href="./blocks/banner/__heandler/_position/banner__heandler_position_left.css">
+  <link rel="stylesheet" href="./blocks/banner/__heandler/_position/banner__heandler_position_right.css">
+  <link rel="stylesheet" href="./blocks/banner/__scrol/banner__scrol.css">
+  <link rel="stylesheet" href="./blocks/banner/__scrol-item/banner__scrol-item.css">
+  <link rel="stylesheet" href="./blocks/banner/__arrow/banner__arrow.css">
+  <link rel="stylesheet" href="./blocks/banner/__arrow/_position/banner__arrow_position_left.css">
+  <link rel="stylesheet" href="./blocks/banner/__arrow/_position/banner__arrow_position_right.css">
+  <link rel="stylesheet" href="./blocks/banner/__container/_content/banner__container_content_test.css">
   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
   <link rel="icon" href="./favicon.png" type="image/x-icon">
   <title>Профессионал</title>
@@ -80,16 +90,16 @@
             </div>
           </div>
           <nav class="swipe-menu__text-container">
-            <a class="swipe-menu__link">
+            <a class="swipe-menu__link" href="#">
               <h2 class="swipe-menu__link-text">О компании</h2>
             </a>
-            <a class="swipe-menu__link">
+            <a class="swipe-menu__link" href="#">
               <h2 class="swipe-menu__link-text">Услуги</h2>
             </a>
-            <a class="swipe-menu__link">
+            <a class="swipe-menu__link" href="#">
               <h2 class="swipe-menu__link-text">Контакты</h2>
             </a>
-            <a class="swipe-menu__link">
+            <a class="swipe-menu__link" href="#">
               <h2 class="swipe-menu__link-text">Документы</h2>
             </a>
           </nav>
@@ -174,16 +184,33 @@
   </header>
   <main class="main">
     <section class="banner">
-      <div class="banner__container banner__container_content_novoal">
+      <div class="banner__container">
+        <button class="banner__heandler banner__heandler_position_left">
+          <div class="banner__arrow banner__arrow_position_left"></div>
+        </button>
+        <button class="banner__heandler banner__heandler_position_right">
+          <div class="banner__arrow banner__arrow_position_right"></div>
+        </button>
+        <img class="banner__container_content_left" src="">
+        <img class="banner__container_content" src="./images/banner/novoal.png">
+        <img class="banner__container_content_right" src="">
         <div class="banner__text-box">
-          <h2 class="banner__title">Какое то предложение</h2>
-          <p class="banner__subtitle">Оно же но чуть подробнее, совсем чутка</p>
+          <span class="banner__title"></span>
+          <p class="banner__subtitle"></p>
           <a class="banner__button" href="#">
             <p class="banner__button-text">Подробнее</p>
           </a>
         </div>
-
+        <nav class="banner__scrol">
+          <div class="banner__scrol-item banner__scrol-item_active" id="scrol-item0"></div>
+          <div class="banner__scrol-item" id="scrol-item1"></div>
+          <div class="banner__scrol-item" id="scrol-item2"></div>
+          <div class="banner__scrol-item" id="scrol-item3"></div>
+          <div class="banner__scrol-item" id="scrol-item4"></div>
+          <div class="banner__scrol-item" id="scrol-item5"></div>
+        </nav>
       </div>
+
     </section>
     <section class="cards">
       <nav class="cards__card-container">
@@ -233,8 +260,10 @@
     </nav>
   </footer>
   <script src="./jquery-3.5.1.js"></script>
+  <script src="./smoothly.js"></script>
   <script src="./swipe-listener.min.js"></script>
   <script src="./script.js"></script>
   <script src="./swipe.js"></script>
+  <script src="./banner-slide.js"></script>
 </body>
 </html>

@@ -6,6 +6,7 @@
     background-size: contain;
     width: 352px;
     height: 49px;
+    cursor: pointer;
   }
 }
 @media (max-width: 720px){
@@ -15,5 +16,6 @@
     background-size: contain;
     width: 200.88px;
     height: 27.56px;
+    cursor: pointer;
   }
 }

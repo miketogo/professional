@@ -21,7 +21,7 @@
     left: 0;
   }
 }
-@media(max-width:369px){
+@media(max-width:425px){
   .banner__subtitle{
     position: relative;
     width: 90%;
@@ -30,4 +30,5 @@
     margin: 20px 0 0 10px;
     top: 0;
     left: 0;
+}
 }

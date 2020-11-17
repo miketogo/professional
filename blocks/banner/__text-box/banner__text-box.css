@@ -1,14 +1,14 @@
 .banner__text-box{
-  margin: 36px 0 0 31px;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(2px);
   width: 751px;
   height: 159px;
   position: relative;
+  z-index: 3;
 }
 @media(min-width:720px) and (max-width: 1350px){
   .banner__text-box{
-
+    max-width: 751px;
     width: 90%;
     align-self: center;
     border-radius: 20px;
@@ -20,6 +20,5 @@
     height: 126px;
     align-self: center;
     border-radius: 20px;
-    margin: 26px auto 0;
   }
 }

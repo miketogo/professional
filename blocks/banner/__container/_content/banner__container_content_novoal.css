@@ -2,3 +2,6 @@
   background-image: url(../../../../images/banner/novoal.png);
 
 }
+.banner__container_content_novoal:hover{
+  transform: translateX(100vw);
+}

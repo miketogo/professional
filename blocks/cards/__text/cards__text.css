@@ -8,3 +8,8 @@
   margin: 0 0 7px 0;
   padding: 0;
 }
+@media (max-width: 720px){
+  .cards__text{
+    margin: 0;
+  }
+}

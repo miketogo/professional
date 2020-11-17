@@ -7,6 +7,8 @@
     flex-direction: column;
     padding: 0 0 0 18%;
     justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 @media (max-width: 720px){
@@ -17,6 +19,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 .swipe-menu__link:first-of-type{

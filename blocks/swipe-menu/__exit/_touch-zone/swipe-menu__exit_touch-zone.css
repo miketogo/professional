@@ -9,6 +9,7 @@
     width: 104px;
     margin-right: 4.35%;
     -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
   }
 }
 @media (max-width: 720px){
@@ -20,5 +21,6 @@
     width: 75px;
     margin-right: 4.35%;
     -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
   }
 }
