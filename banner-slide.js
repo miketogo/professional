@@ -176,6 +176,13 @@ setTimeout(
     if (screen.width < 1351){
     if (Math.abs(x[0]-x[1])>100){
       if (directions.right) {
+        cheeck = 0;
+        setTimeout(
+          () => {
+            cheeck = 1;
+          },
+          0.9 * 1000
+        );
         image_left.src = banner__array[left].content_;
         setTimeout(
           () => {
@@ -212,6 +219,13 @@ setTimeout(
 
       }
       if (directions.left) {
+        cheeck = 0;
+        setTimeout(
+          () => {
+            cheeck = 1;
+          },
+          0.9 * 1000
+        );
         image_right.src = banner__array[right].content_;
         setTimeout(
           () => {
