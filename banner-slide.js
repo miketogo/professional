@@ -8,7 +8,7 @@ let subtitle = document.querySelector('.banner__subtitle');
 let i = 0;
 let left = 5;
 let right = 1;
-let cheeck = false;
+let cheeck = 0;
 let banner__array = [
   { title: 'Какое-то предложение1',subtitle: 'Чтото напсианно снизу 1' , scrol_id:'#scrol-item0', content_id:'#banner__container_content_0', content_:'./images/banner/novoal.png'},
   { title: 'Какое-то предложение2',subtitle: 'Чтото напсианно снизу 2' , scrol_id:'#scrol-item1', content_id:'#banner__container_content_1', content_:'./images/banner/test.png'},
@@ -49,7 +49,6 @@ setTimeout(
           if(left>=6){
             left=0;
           }
-          console.log(left,i,right);
         },
         0.6 * 1000
       );
@@ -58,7 +57,7 @@ setTimeout(
       );
     };
     $(".banner__heandler").attr("disabled", false);
-    cheeck= true;
+    cheeck= 1;
   },
   1.5 * 1000
 );
@@ -104,7 +103,6 @@ setTimeout(
         if(left>=6){
           left=0;
         }
-        console.log(left,i,right);
       },
       0.6 * 1000
     );
@@ -153,7 +151,6 @@ setTimeout(
             if(left<=-1){
               left=5;
             }
-            console.log(left,i,right);
           },
           0.6 * 1000
         );
@@ -167,7 +164,7 @@ setTimeout(
 
 
 
-if(cheeck = true){
+
   var container = document.querySelector('.banner__container');
   var listener = SwipeListener(container);
 
@@ -175,12 +172,11 @@ if(cheeck = true){
     var directions = e.detail.directions;
     var x = e.detail.x;
     var y = e.detail.y;
-
+    if(cheeck >= 1){
     if (screen.width < 1351){
     if (Math.abs(x[0]-x[1])>100){
       if (directions.right) {
         image_left.src = banner__array[left].content_;
-        console.log('Swiped right.');
         setTimeout(
           () => {
             i= i - 1;
@@ -207,7 +203,6 @@ if(cheeck = true){
                 if(left<=-1){
                   left=5;
                 }
-                console.log(left,i,right);
               },
               0.6 * 1000
             );
@@ -218,7 +213,6 @@ if(cheeck = true){
       }
       if (directions.left) {
         image_right.src = banner__array[right].content_;
-        console.log('Swiped left.');
         setTimeout(
           () => {
             i= i + 1;
@@ -244,7 +238,6 @@ if(cheeck = true){
             if(left>=6){
               left=0;
             }
-            console.log(left,i,right);
           },
           0.6 * 1000
         );
@@ -252,6 +245,4 @@ if(cheeck = true){
           0.2 * 1000
         );
 
-  }};}});
-
-};
+  }};}};});
