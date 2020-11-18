@@ -17,6 +17,7 @@
     height: 75px;
     width: 352px;
     background-size: contain;
+    padding-bottom: 18px;
   }
 }
 
@@ -29,5 +30,6 @@
     background-size: contain;
     align-self: flex-end;
     margin: 0;
+    padding-bottom: 7px;
   }
 }

@@ -13,7 +13,7 @@
   .menu__burger{
     display: flex;
     width: 89.53px;
-    height: 75px;
+    height: 80px;
   }
 }
 @media (max-width: 720px){
