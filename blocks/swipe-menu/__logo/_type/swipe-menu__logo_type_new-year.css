@@ -1,0 +1,20 @@
+
+@media (max-width: 1350px){
+  .swipe-menu__logo_type_new-year{
+    background-image: url(../../../../images/logo/logo-mini_type_new_year.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 41px;
+  }
+}
+@media (max-width: 720px){
+  .swipe-menu__logo_type_new-year{
+    background-image: url(../../../../images/logo/logo-mini_type_new_year.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 23px;
+
+  }
+
+}

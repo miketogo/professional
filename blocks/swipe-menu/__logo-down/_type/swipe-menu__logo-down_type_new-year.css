@@ -1,0 +1,22 @@
+
+
+@media (max-width: 1350px){
+  .swipe-menu__logo-down_type_new-year{
+    background-image: url(../../../../images/logo/menu__logo-full_type_new_year.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 392.02px;
+    height: 83.57px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 720px){
+  .swipe-menu__logo-down_type_new-year{
+    background-image: url(../../../../images/logo/menu__logo-full_type_new_year.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    width: 200.88px;
+    /* height: 27.56px; */
+    cursor: pointer;
+  }
+}
