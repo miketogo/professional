@@ -13,7 +13,7 @@
 @media (max-width: 1350px){
   .menu__logo_type_new_year{
     border: none;
-    background-image: url(../../../../images/logo//menu__logo-full_type_new_year.png);
+    background-image: url(../../../../images/logo/menu__logo-full_type_new_year.svg);
     height: 75px;
     width: 352px;
     background-size: contain;
@@ -24,7 +24,7 @@
   .menu__logo_type_new_year{
     border: none;
     width: 200px;
-    background-image: url(../../../../images/logo//menu__logo-full_type_new_year.png);
+    background-image: url(../../../../images/logo/menu__logo-full_type_new_year.svg);
     height: 48px;
     background-size: contain;
     align-self: flex-end;
