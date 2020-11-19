@@ -1,28 +1,48 @@
 .swipe-menu{
   position: absolute;
   top: 0;
-  left: -100vw;
+  left: -73.3vw;
   height: 100vh;
   width: 73.3vw;
   z-index: 12;
   background: #3C666B;
+  box-shadow: inset -1px 0px 4px #386166;
+  transition: none;
  }
  @media(max-width: 1350px){
 .swipe-menu_active{
-    transform: translateX(100vw);
+     left: 0vw;
      display: flex;
      flex-direction: column;
      background: #3C666B;
      width: 55.1vw;
+
    }
- }
+   .swipe-menu{
+    left: -55.1vw;
+    display: flex;
+    flex-direction: column;
+    background: #3C666B;
+    width: 55.1vw;
+    transition: none;
+
+  }
+}
  @media (max-width: 720px){
   .swipe-menu_active{
-    transform: translateX(100vw);
+    left: 0vw;
     display: flex;
     flex-direction: column;
     background: #3C666B;
     width: 73.3vw;
+  }
+  .swipe-menu{
+    left: -73.3vw;
+    display: flex;
+    flex-direction: column;
+    background: #3C666B;
+    width: 73.3vw;
+    transition: none;
   }
  }
 

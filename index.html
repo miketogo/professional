@@ -81,9 +81,18 @@
           <span class="menu__burger-line"></span>
 
         </div>
-        <div class="background-darker">
+        <div class="background-darker"
+             id="background-darker"
+             ontouchstart="backgroundHendleTouchStrat(event)"
+             ontouchmove="backgroundHendleTouchMove(event)"
+             ontouchend="backgroundHendleTouchEnd(event)">
         </div>
-        <nav class="swipe-menu">
+
+        <nav class="swipe-menu"
+        id="swipe-menu"
+        ontouchstart="swipeMenuHendleTouchStrat(event)"
+        ontouchmove="swipeMenuHendleTouchMove(event)"
+        ontouchend="swipeMenuHendleTouchEnd(event)">
           <div class="swipe-menu__up-container">
             <a class="swipe-menu__logo_touch-zone" href="./index.html">
               <div class="swipe-menu__logo swipe-menu__logo_type_new-year"></div>
@@ -215,7 +224,11 @@
       </div>
 
     </section>
-    <section class="cards">
+    <section class="cards"
+    id="cards"
+    ontouchstart="cardsHendleTouchStrat(event)"
+    ontouchmove="cardsHendleTouchMove(event)"
+    ontouchend="cardsHendleTouchEnd(event)">
       <nav class="cards__card-container">
         <a class="cards__item">
             <div class="cards__photo-container">
@@ -263,11 +276,11 @@
     </nav>
 
   </footer>
-  <script src="./jquery-3.5.1.js"></script>
-  <script src="./smoothly.js"></script>
-  <script src="./swipe-listener.min.js"></script>
-  <script src="./script.js"></script>
-  <script src="./swipe.js"></script>
-  <script src="./banner-slide.js"></script>
+  <script src="./scripts/jquery-3.5.1.js"></script>
+  <script src="./scripts/smoothly.js"></script>
+  <script src="./scripts/swipe-listener.min.js"></script>
+  <script src="./scripts/script.js"></script>
+  <script src="./scripts/swipe.js"></script>
+  <script src="./scripts/banner-slide.js"></script>
 </body>
 </html>
