@@ -12,11 +12,13 @@
   .banner__container{
     width: 88.87%;
     height: 214px;
+    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 720px){
   .banner__container{
     width: 100vw;
     height: 183px;
+    flex-direction: column-reverse;
   }
 }

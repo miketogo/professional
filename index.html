@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./vendor/fonts/fonts.css">
   <link rel="stylesheet" href="./blocks/root/root.css">
@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="./blocks/menu/__dropdown-text/menu__dropdown-text.css">
   <link rel="stylesheet" href="./blocks/banner/banner.css">
   <link rel="stylesheet" href="./blocks/banner/__container/banner__container.css">
-  <link rel="stylesheet" href="./blocks/banner/__container/_content/banner__container_content_novoal.css">
   <link rel="stylesheet" href="./blocks/banner/__text-box/banner__text-box.css">
   <link rel="stylesheet" href="./blocks/banner/__titile/banner__title.css">
   <link rel="stylesheet" href="./blocks/banner/__heandler/banner__heandler.css">
@@ -64,12 +63,12 @@
   <link rel="stylesheet" href="./blocks/banner/__arrow/banner__arrow.css">
   <link rel="stylesheet" href="./blocks/banner/__arrow/_position/banner__arrow_position_left.css">
   <link rel="stylesheet" href="./blocks/banner/__arrow/_position/banner__arrow_position_right.css">
-  <link rel="stylesheet" href="./blocks/banner/__container/_content/banner__container_content_test.css">
   <link rel="stylesheet" href="./blocks/menu/__logo/_type/menu__logo_type_new_year.css">
   <link rel="stylesheet" href="./blocks/swipe-menu/__logo-down/_type/swipe-menu__logo-down_type_new-year.css">
   <link rel="stylesheet" href="./blocks/swipe-menu/__logo/_type/swipe-menu__logo_type_new-year.css">
   <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
   <link rel="icon" href="./favicon.png" type="image/x-icon">
+  <meta name="keywords" content="Профессионал, Управляющая Компания, ук, УК, профессионал ук, профессионал УК">
   <title>Профессионал</title>
 </head>
 <body class="root">
@@ -196,16 +195,17 @@
   </header>
   <main class="main">
     <section class="banner">
-      <div class="banner__container">
+      <div class="banner__container"
+          id="banner">
         <button class="banner__heandler banner__heandler_position_left">
           <div class="banner__arrow banner__arrow_position_left"></div>
         </button>
         <button class="banner__heandler banner__heandler_position_right">
           <div class="banner__arrow banner__arrow_position_right"></div>
         </button>
-        <img class="banner__container_content_left" src="">
-        <img class="banner__container_content" src="./images/banner/novoal.png">
-        <img class="banner__container_content_right" src="">
+        <img class="banner__container_content_left" src="" id="bannerLeft">
+        <img class="banner__container_content" src="./images/banner/novoal.png" id="bannerCenter">
+        <img class="banner__container_content_right" src="" id="bannerRight">
         <div class="banner__text-box">
           <span class="banner__title"></span>
           <p class="banner__subtitle"></p>
@@ -222,7 +222,6 @@
           <div class="banner__scrol-item" id="scrol-item5"></div>
         </nav>
       </div>
-
     </section>
     <section class="cards"
     id="cards"
@@ -279,7 +278,6 @@
   <script src="./scripts/jquery-3.5.1.js"></script>
   <script src="./scripts/smoothly.js"></script>
   <script src="./scripts/swipe-listener.min.js"></script>
-  <script src="./scripts/script.js"></script>
   <script src="./scripts/swipe.js"></script>
   <script src="./scripts/banner-slide.js"></script>
 </body>

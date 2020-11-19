@@ -4,13 +4,14 @@
   border-radius: 50%;
   background: #EBEAE4;
   margin-right: 10px;
-  opacity: 0.5;
+  opacity: 0.6;
+  box-shadow: inset 0px 2px 2px rgba(185, 185, 185, 0.25);
 }
 .banner__scrol-item:last-of-type{
   margin-right: 0;
 }
 .banner__scrol-item_active{
-  background: #EBEAE4;
+  background: #3C666B;
   opacity: 0.9;
 }
 @media (max-width: 1350px){
@@ -20,13 +21,14 @@
     border-radius: 79px;
     background: #EBEAE4;
     margin-right: 10px;
-    opacity: 0.5;
+    opacity: 0.6;
+    box-shadow: inset 0px 2px 2px rgba(185, 185, 185, 0.25);
   }
   .banner__scrol-item:last-of-type{
     margin-right: 0;
   }
   .banner__scrol-item_active{
-    background: #EBEAE4;
+    background: #3C666B;
     opacity: 0.9;
   }
 }
@@ -37,13 +39,14 @@
     border-radius: 79px;
     background: #EBEAE4;
     margin-right: 10px;
-    opacity: 0.5;
+    box-shadow: inset 0px 2px 2px rgba(185, 185, 185, 0.25);
+    opacity: 0.6;
   }
   .banner__scrol-item:last-of-type{
     margin-right: 0;
   }
   .banner__scrol-item_active{
-    background: #EBEAE4;
+    background: #3C666B;
     opacity: 0.9;
   }
 }

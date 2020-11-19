@@ -1,6 +1,5 @@
 .banner__text-box{
   background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(2px);
   width: 751px;
   height: 159px;
   position: relative;
@@ -9,14 +8,14 @@
 @media(min-width:720px) and (max-width: 1350px){
   .banner__text-box{
     max-width: 751px;
-    width: 90%;
+    width: 83%;
     align-self: center;
     border-radius: 20px;
   }
 }
 @media(max-width:720px){
   .banner__text-box{
-    width: 90%;
+    width: 80%;
     height: 126px;
     align-self: center;
     border-radius: 20px;

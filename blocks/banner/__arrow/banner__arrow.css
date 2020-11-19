@@ -9,3 +9,18 @@
 .banner__heandler:hover .banner__arrow{
   opacity: 0.7;
 }
+
+    @media(max-width: 1351px){
+      .banner__arrow{
+        width: 25px;
+        height: 25px;
+        opacity: 0.7;
+      }
+    }
+    @media(max-width: 721px){
+      .banner__arrow{
+        width: 20px;
+        height: 20px;
+        opacity: 0.7;
+      }
+    }
