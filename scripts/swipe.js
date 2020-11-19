@@ -257,12 +257,14 @@ $('.menu__burger').on('click', function(e){
   background.style.left = 0;
   background.style.opacity = 1;
   swipeMenu.style.left = 0;
+  $('body').addClass('stop-scrolling');
 });
 $('.swipe-menu__exit_touch-zone').on('click', function(e){
   e.preventDefault;
   background.style.opacity = 0;
   swipeMenu.style.transition = 'all 0.3s ease-in-out'
   swipeMenu.style.left = -73.3 + 'vw';
+  $('body').removeClass('stop-scrolling');
   setTimeout(
     () => {
       background.style.left = -100 + 'vw';
@@ -271,6 +273,7 @@ $('.swipe-menu__exit_touch-zone').on('click', function(e){
   );
 });
 background.addEventListener('click', function () {
+  $('body').removeClass('stop-scrolling');
   background.style.opacity = 0;
   swipeMenu.style.transition = 'all 0.3s ease-in-out'
   swipeMenu.style.left = -73.3 + 'vw';
