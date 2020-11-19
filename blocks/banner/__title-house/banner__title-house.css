@@ -1,0 +1,34 @@
+.banner__title-house{
+  font-family: Intro ;
+  font-size: 40px;
+  line-height: 41px;
+  color: #EBEAE4;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 32px;
+  left: 63px;
+}
+@media(max-width:720px){
+  .banner__title-house{
+  position: relative;
+    /* width: 90%; */
+    font-size: 22px;
+    line-height: 30px;
+    /* margin: 0 0 0 10px; */
+    /* top: 10px; */
+    /* /* left: 0; */
+  }
+}
+@media(max-width:425px){
+  .banner__title-house{
+    position: relative;
+    /* width: 90%; */
+    font-size: 22px;
+    line-height: 30px;
+    left: 5px;
+    /* margin: 0 0 0 10px; */
+    /* top: 10px; */
+    /* left: 0;
+  }
+}

@@ -12,15 +12,16 @@ let left = 5;
 let right = 1;
 let cheeck = 0;
 let banner__array = [
-  { title: 'Какое-то предложение1',subtitle: 'Чтото напсианно снизу 1' , scrol_id:'#scrol-item0', content_id:'#banner__container_content_0', content_:'./images/banner/novoal.png'},
+  { title: 'Какое-то предложение1',subtitle: 'Чтото напсианно снизу 1' , scrol_id:'#scrol-item0', content_id:'#banner__container_content_0', content_:'./images/banner/profes.png'},
   { title: 'Арендуйте паркинг!',subtitle: 'Устали искать место?' , scrol_id:'#scrol-item1', content_id:'#banner__container_content_1', content_:'./images/banner/parking.png'},
   { title: 'Какое-то предложение3',subtitle: 'Чтото напсианно снизу 3' , scrol_id:'#scrol-item2', content_id:'#banner__container_content_2', content_:'./images/banner/profes.png'},
   { title: 'Covid-2019',subtitle: 'Ограничения работы Ук' , scrol_id:'#scrol-item3', content_id:'#banner__container_content_3', content_:'./images/banner/covid.png'},
-  { title: 'Какое-то предложение5',subtitle: 'Чтото напсианно снизу 5' , scrol_id:'#scrol-item4', content_id:'#banner__container_content_4', content_:'./images/banner/profes.png'},
-  { title: 'Какое-то предложение6',subtitle: 'Чтото напсианно снизу 6' , scrol_id:'#scrol-item5', content_id:'#banner__container_content_5', content_:'./images/banner/test.png'},
+  { title: 'Какое-то предложение5',subtitle: 'Чтото напсианно снизу 5' , scrol_id:'#scrol-item4', content_id:'#banner__container_content_4', content_:'./images/banner/test.png'},
+  { title: 'Какое-то предложение6',subtitle: 'Чтото напсианно снизу 6' , scrol_id:'#scrol-item5', content_id:'#banner__container_content_5', content_:'./images/banner/novoal.png'},
 ]
 title.textContent = banner__array[i].title;
 subtitle.textContent = banner__array[i].subtitle;
+image_center.src =banner__array[i].content_;
 $(".banner__heandler").attr("disabled", true);
 setTimeout(
   () => {
