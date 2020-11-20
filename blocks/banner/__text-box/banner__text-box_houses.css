@@ -7,17 +7,17 @@
 }
 @media(min-width:720px) and (max-width: 1350px){
   .banner__text-box_houses{
-    max-width: 751px;
     width: 100%;
+    height: unset;
     align-self: center;
-    border-radius: 20px;
+    padding: 40px 0;
   }
 }
 @media(max-width:720px){
   .banner__text-box_houses{
     width: 100%;
-    height: 126px;
+    height: unset;
     align-self: center;
-    border-radius: 20px;
+    padding: 10px 0;
   }
 }

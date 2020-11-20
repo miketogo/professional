@@ -9,26 +9,22 @@
   top: 32px;
   left: 63px;
 }
-@media(max-width:720px){
+@media(max-width:1351px){
   .banner__title-house{
-  position: relative;
-    /* width: 90%; */
-    font-size: 22px;
-    line-height: 30px;
-    /* margin: 0 0 0 10px; */
-    /* top: 10px; */
-    /* /* left: 0; */
+    position: unset;
+    width: 88.87%;
+    font-size: 37px;
+    line-height: 38px;
+    margin: 0 auto;
   }
 }
 @media(max-width:425px){
   .banner__title-house{
-    position: relative;
-    /* width: 90%; */
+    position: unset;
+    width: 88.87%;
     font-size: 22px;
     line-height: 30px;
-    left: 5px;
-    /* margin: 0 0 0 10px; */
-    /* top: 10px; */
-    /* left: 0;
+    margin: 0 auto;
+}
   }
 }
