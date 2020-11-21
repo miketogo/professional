@@ -1,0 +1,14 @@
+.vk-posts__container{
+  width: 1190px;
+
+}
+@media(min-width:720px) and (max-width: 1350px){
+  .vk-posts__container{
+    width: 88.87%;
+  }
+}
+@media screen and (max-width: 720px){
+  .vk-posts__container{
+    width: 100vw;
+  }
+}
