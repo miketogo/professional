@@ -1,0 +1,287 @@
+.text-container{
+  margin-top: 42px;
+  width: 87.7vw;
+  max-width: 1190px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 100%));
+  grid-template-rows: repeat(auto-fit, minmax(30px, 100%));
+  gap: 22px;
+  grid-auto-rows: repeat(auto-fit, minmax(30px, 100%));
+  padding: 27px 0;
+  align-items: start;
+  justify-items: start;
+  border-top: #3C666B 10px solid;
+  border-bottom: #3C666B 10px solid;
+}
+.text-container__title{
+  justify-self: center;
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #3C666B;
+  grid-row: 1;
+  margin-bottom: 30px;
+}
+.text-container__work-time-title{
+  font-family: Arial;
+  font-size: 30px;
+  font-weight:normal;
+  line-height: 1.1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #3C666B;
+  grid-row: 2;
+
+}
+.text-container__time-table{
+  width: 363px;
+  height: 191px;
+  background-image: url(../../images/time-table/time-table.svg);
+  background-size: cover;
+  grid-row: 3;
+  margin-bottom: 25px;
+}
+.text-container__personal-welcome-title{
+  font-family: Arial;
+  font-size: 30px;
+  font-weight:normal;
+  line-height: 1.1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #3C666B;
+  grid-row: 4;
+
+}
+.text-container__personal-welcome-pharagrph{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.1;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #3C666B;
+  grid-row: 5;
+  margin-bottom: 25px;
+}
+.text-container__legal-information-titile{
+  font-family: Arial;
+  font-size: 30px;
+  font-weight:normal;
+  line-height: 1.1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #3C666B;
+  grid-row: 6;
+}
+.text-container__legal-information-pharagrph{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.1;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #3C666B;
+  grid-row: 7;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 720px){
+  .text-container{
+    margin-top: 42px;
+    width: 100%;
+    max-width: 1190px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(30px, 100%));
+    gap: 22px;
+    grid-auto-rows: repeat(auto-fit, minmax(30px, 100%));
+    padding: 27px 6%;
+    border-top: #3C666B 10px solid;
+    border-bottom: #3C666B 10px solid;
+  }
+  .text-container__title{
+    justify-self: center;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 1;
+    margin-bottom: 30px;
+  }
+  .text-container__work-time-title{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight:normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 2;
+
+  }
+  .text-container__time-table{
+    width: 363px;
+    height: 191px;
+    background-image: url(../../images/time-table/time-table.svg);
+    background-size: cover;
+    grid-row: 3;
+    margin-bottom: 25px;
+  }
+  .text-container__personal-welcome-title{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight:normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 4;
+
+  }
+  .text-container__personal-welcome-pharagrph{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 5;
+    margin-bottom: 25px;
+  }
+  .text-container__legal-information-titile{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight:normal;
+    line-height: 1.1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 6;
+  }
+  .text-container__legal-information-pharagrph{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 7;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 425px){
+  .text-container{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1190px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(30px, 100%));
+    gap: 22px;
+    grid-auto-rows: repeat(auto-fit, minmax(30px, 100%));
+    padding: 27px 6%;
+    justify-items: start;
+    border-top: #3C666B 10px solid;
+    border-bottom: #3C666B 10px solid;
+  }
+  .text-container__title{
+    justify-self: center;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 1;
+    margin-bottom: 15px;
+  }
+  .text-container__work-time-title{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight:normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 2;
+
+  }
+  .text-container__time-table{
+    justify-self: center;
+    width: 260px;
+    height: 137px;
+    background-image: url(../../images/time-table/time-table.svg);
+    background-size: cover;
+    grid-row: 3;
+    margin-bottom: 10px;
+  }
+  .text-container__personal-welcome-title{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight:normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 4;
+
+  }
+  .text-container__personal-welcome-pharagrph{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 5;
+    margin-bottom: 10px;
+  }
+  .text-container__legal-information-titile{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight:normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 6;
+  }
+  .text-container__legal-information-pharagrph{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #3C666B;
+    grid-row: 7;
+    margin-bottom: 10px;
+  }
+}
