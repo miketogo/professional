@@ -4,15 +4,11 @@
   background-repeat: no-repeat;
   height: 102px;
   width: 396px;
-  border-left: solid 1px #DFD0AE ;
-  transition: background-image 0.3s ease-in-out 0.2s;
-  transition: width 0.3s ease-in-out;
-  transition: height 0.3s ease-in-out;
+
 }
 
 @media (max-width: 1350px){
   .menu__logo_type_new_year{
-    border: none;
     background-image: url(../../../../images/logo/menu__logo-full_type_new_year.svg);
     height: 75px;
     width: 352px;
@@ -23,7 +19,7 @@
 
 @media (max-width: 720px){
   .menu__logo_type_new_year{
-    border: none;
+
     width: 200px;
     background-image: url(../../../../images/logo/menu__logo-full_type_new_year.svg);
     height: 48px;

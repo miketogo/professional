@@ -18,3 +18,7 @@
   background-color: #4b878f;
   cursor: pointer;
 }
+.menu__dropdown-item_type_accounts{
+  border-top: solid 1px #e6e6e6;
+
+}

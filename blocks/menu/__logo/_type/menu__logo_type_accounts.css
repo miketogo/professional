@@ -1,19 +1,19 @@
-.menu__logo{
-  background-image: url(../../../images/logo/logo-mini.svg);
+.menu__logo_type_accounts{
+  background-image: url(../../../../images/logo/logo-mini.svg);
   background-position: center;
   background-repeat: no-repeat;
   height: 102px;
   width: 396px;
-  border-left: solid 1px #DFD0AE ;
+  border-left: solid 1px #e6e6e6;
   transition: background-image 0.3s ease-in-out 0.2s;
   transition: width 0.3s ease-in-out;
   transition: height 0.3s ease-in-out;
 }
 
 @media (max-width: 1350px){
-  .menu__logo{
+  .menu__logo_type_accounts{
     border: none;
-    background-image: url(../../../images/logo/logo-full.svg);
+    background-image: url(../../../../images/logo/logo-full.svg);
     height: 75px;
     width: 352px;
     background-size: contain;
@@ -21,14 +21,13 @@
 }
 
 @media (max-width: 720px){
-  .menu__logo{
+  .menu__logo_type_accounts{
     border: none;
     width: 200px;
-    background-image: url(../../../images/logo/logo-full.svg);
+    background-image: url(../../../../images/logo/logo-full.svg);
     height: 27px;
     background-size: contain;
     align-self: flex-end;
     margin-bottom: 9.44px;
   }
 }
-

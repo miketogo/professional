@@ -1,0 +1,6 @@
+.menu__button_type_accounts{
+  border-left: solid 1px #e6e6e6;
+}
+.menu__button_type_accounts[id='last-button']{
+  border-right: solid 1px #e6e6e6;
+}

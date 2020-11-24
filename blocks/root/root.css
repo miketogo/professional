@@ -2,8 +2,14 @@
 background-color: #DFD0AE;
 min-width: 300px;
 -webkit-tap-highlight-color: transparent;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+text-rendering: optimizeLegibility;
 }
 
 *{
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s linear;
 }
