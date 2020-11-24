@@ -55,3 +55,11 @@
     margin: 27px 0 0;
   }
 }
+.cards__item-link{
+  margin-top: 65px;
+  background-color: #DFD0AE;
+  filter: unset;
+  align-items: center;
+  border-bottom: #c3b698 solid 5px;
+  border-top: #c3b698 solid 5px;
+}

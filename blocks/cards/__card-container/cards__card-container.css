@@ -17,3 +17,6 @@
     justify-content: center;
   }
 }
+.cards__card-container-link{
+  display: block;
+}

@@ -198,70 +198,20 @@
       </nav>
   </header>
   <main class="main">
-    <section class="banner">
-      <div class="banner__container"
-          id="banner">
-        <button class="banner__heandler banner__heandler_position_left">
-          <div class="banner__arrow banner__arrow_position_left"></div>
-        </button>
-        <button class="banner__heandler banner__heandler_position_right">
-          <div class="banner__arrow banner__arrow_position_right"></div>
-        </button>
-        <img class="banner__container_content_left" src="" id="bannerLeft">
-        <img class="banner__container_content" src="" id="bannerCenter">
-        <img class="banner__container_content_right" src="" id="bannerRight">
-        <div class="banner__text-box">
-          <span class="banner__title"></span>
-          <p class="banner__subtitle"></p>
-          <a class="banner__button" href="#">
-            <p class="banner__button-text">Подробнее</p>
-          </a>
-        </div>
-        <nav class="banner__scrol">
-          <div class="banner__scrol-item banner__scrol-item_active" id="scrol-item0"></div>
-          <div class="banner__scrol-item" id="scrol-item1"></div>
-          <div class="banner__scrol-item" id="scrol-item2"></div>
-          <div class="banner__scrol-item" id="scrol-item3"></div>
-          <div class="banner__scrol-item" id="scrol-item4"></div>
-          <div class="banner__scrol-item" id="scrol-item5"></div>
-        </nav>
-      </div>
-    </section>
     <section class="cards"
     id="cards"
     ontouchstart="cardsHendleTouchStrat(event)"
     ontouchmove="cardsHendleTouchMove(event)"
     ontouchend="cardsHendleTouchEnd(event)">
-      <nav class="cards__card-container">
-        <a class="cards__item" href="./novoal/index.html">
-            <div class="cards__photo-container">
-              <div class="cards__photo cards__photo_content_novoal"></div>
-            </div>
-            <h3 class="cards__text">Ново-<br> александровская</h3>
+      <nav class="cards__card-container cards__card-container-link">
+        <a class="cards__item cards__item-link">
+          <h3 class="cards__text cards__text-link">О Компании</h3>
+      </a>
+        <a class="cards__item" href="./about.html">
+            <h3 class="cards__text">Общая Информация</h3>
         </a>
         <a class="cards__item">
-          <div class="cards__photo-container">
-            <div class="cards__photo cards__photo_content_strel"></div>
-          </div>
-          <h3 class="cards__text">Стрельбищенская</h3>
-        </a>
-        <a class="cards__item">
-          <div class="cards__photo-container">
-            <div class="cards__photo cards__photo_content_ilmarinen"></div>
-          </div>
-          <h3 class="cards__text">Илмаринен</h3>
-        </a>
-        <a class="cards__item">
-          <div class="cards__photo-container">
-            <div class="cards__photo cards__photo_content_work"></div>
-          </div>
-          <h3 class="cards__text">Отчеты о работе</h3>
-        </a>
-        <a class="cards__item">
-          <div class="cards__photo-container">
-            <div class="cards__photo cards__photo_content_contact-form"></div>
-          </div>
-          <h3 class="cards__text">Связаться с нами</h3>
+          <h3 class="cards__text">Контакты</h3>
         </a>
       </nav>
     </section>
@@ -277,6 +227,5 @@
   <script src="./scripts/smoothly.js"></script>
   <script src="./scripts/swipe-listener.min.js"></script>
   <script src="./scripts/swipe.js"></script>
-  <script src="./scripts/banner-slide.js"></script>
 </body>
 </html>
