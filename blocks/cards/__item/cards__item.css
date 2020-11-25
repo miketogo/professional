@@ -12,6 +12,23 @@
 .cards__item:nth-of-type(3n){
   margin: 47px 0 0;
 }
+.cards__item-link{
+  margin-top: 90px;
+  width: 100%;
+  background-color: #DFD0AE;
+  filter: unset;
+  align-items: center;
+  border-bottom: #c3b698 solid 5px;
+  border-top: #c3b698 solid 5px;
+  height: 150px;
+}
+.cards__item-links{
+  margin-right: 0;
+  height: 100px;
+  justify-items: center;
+  width: 100%;
+  align-items: center;
+}
 @media(min-width:1351px){
   .cards__item{
     overflow: hidden;
@@ -40,7 +57,24 @@
     background-color: #4b878f;
     cursor: pointer;
   }
+  .cards__item-link{
+    margin-top: 90px;
+    width: 100%;
+    background-color: #DFD0AE;
+    filter: unset;
+    align-items: center;
+    border-bottom: #c3b698 solid 5px;
+    border-top: #c3b698 solid 5px;
+    height: 150px;
+  }
+  .cards__item-links{
+    height: 100px;
+    justify-items: center;
+    width: 100%;
+    align-items: center;
+  }
 }
+
 @media(max-width: 720px){
   .cards__item{
     width: 100%;
@@ -54,12 +88,13 @@
   .cards__item:nth-of-type(2n){
     margin: 27px 0 0;
   }
+  .cards__item-link{
+    margin-top: 65px;
+    background-color: #DFD0AE;
+    filter: unset;
+    align-items: center;
+    border-bottom: #c3b698 solid 5px;
+    border-top: #c3b698 solid 5px;
+  }
 }
-.cards__item-link{
-  margin-top: 65px;
-  background-color: #DFD0AE;
-  filter: unset;
-  align-items: center;
-  border-bottom: #c3b698 solid 5px;
-  border-top: #c3b698 solid 5px;
-}
+
