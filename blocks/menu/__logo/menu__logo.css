@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   height: 102px;
   width: 396px;
-  border-left: solid 1px #DFD0AE ;
+  border-left: solid 1px #e6e6e6 ;
   transition: background-image 0.3s ease-in-out 0.2s;
   transition: width 0.3s ease-in-out;
   transition: height 0.3s ease-in-out;

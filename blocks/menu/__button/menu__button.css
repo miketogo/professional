@@ -6,12 +6,12 @@
   padding: 0;
   align-items: center;
   justify-content: center;
-  border-left: solid 1px #DFD0AE ;
+  border-left: solid 1px #e6e6e6 ;
   text-decoration: none;
   transition: width 0.3s ease-in-out;
 }
 .menu__button[id='last-button']{
-  border-right: solid 1px #DFD0AE ;
+  border-right: solid 1px #e6e6e6 ;
 }
 @media(max-width: 1350px){
   .menu__button{

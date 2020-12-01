@@ -1,7 +1,7 @@
 .cards__item{
   width: 375px;
   height: 290px;
-  background-color: #3C666B;
+  background-color: #8F998A;
   margin: 47px 32px 0 0;
   display: flex;
   flex-direction: column;
@@ -15,11 +15,11 @@
 .cards__item-link{
   margin-top: 90px;
   width: 100%;
-  background-color: #DFD0AE;
+  background-color: #E6E6E6;
   filter: unset;
   align-items: center;
-  border-bottom: #c3b698 solid 5px;
-  border-top: #c3b698 solid 5px;
+  border-bottom: #8F998A solid 5px;
+  border-top: #8F998A solid 5px;
   height: 150px;
 }
 .cards__item-links{
@@ -34,7 +34,7 @@
     overflow: hidden;
   }
   .cards__item:hover{
-    background-color: #4b878f;
+    background-color: #778073;
     cursor: pointer;
   }
 }
@@ -54,17 +54,17 @@
     overflow: hidden;
   }
   .cards__item:hover{
-    background-color: #4b878f;
+    background-color: #778073;
     cursor: pointer;
   }
   .cards__item-link{
     margin-top: 90px;
     width: 100%;
-    background-color: #DFD0AE;
+    background-color: #E6E6E6;
     filter: unset;
     align-items: center;
-    border-bottom: #c3b698 solid 5px;
-    border-top: #c3b698 solid 5px;
+    border-bottom: #8F998A solid 5px;
+    border-top: #8F998A solid 5px;
     height: 150px;
   }
   .cards__item-links{
@@ -90,11 +90,11 @@
   }
   .cards__item-link{
     margin-top: 65px;
-    background-color: #DFD0AE;
+    background-color: #E6E6E6;
     filter: unset;
     align-items: center;
-    border-bottom: #c3b698 solid 5px;
-    border-top: #c3b698 solid 5px;
+    border-bottom: #8F998A solid 5px;
+    border-top: #8F998A solid 5px;
   }
 }
 

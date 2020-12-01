@@ -1,7 +1,7 @@
 
 @media (max-width: 1350px){
   .swipe-menu__logo_type_new-year{
-    background-image: url(../../../../images/logo/logo-mini_type_new_year.png);
+    background-image: url(../../../../images/logo/menu__logo-mini_type_new_year.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 35px;
@@ -10,11 +10,9 @@
 }
 @media (max-width: 720px){
   .swipe-menu__logo_type_new-year{
-    background-image: url(../../../../images/logo/logo-mini_type_new_year.png);
+    background-image: url(../../../../images/logo/menu__logo-mini_type_new_year.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 23px;
-
   }
 
 }

@@ -1,7 +1,7 @@
 .banner__button{
   width: 247px;
   height: 56px;
-  background: #5386A4;
+  background: #B6A3CC;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -10,7 +10,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.banner__button:hover{
+  background: #FFEFB3;
+}
 @media(min-width: 406px) and (max-width: 1350px){
   .banner__button{
     width: 229.84px;
