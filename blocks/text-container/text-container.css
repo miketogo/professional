@@ -10,8 +10,8 @@
   padding: 27px 0;
   align-items: start;
   justify-items: start;
-  border-top: solid #9BA695 10px;
-  border-bottom: solid #9BA695 10px;
+  border-top: #3C666B 10px solid;
+  border-bottom: #3C666B 10px solid;
 }
 .text-container__title{
   justify-self: center;
@@ -108,8 +108,8 @@
     gap: 22px;
     grid-auto-rows: repeat(auto-fit, minmax(30px, 100%));
     padding: 27px 6%;
-    border-top: solid #9BA695 10px;
-    border-bottom: solid #9BA695 10px;
+    border-top: #3C666B 10px solid;
+    border-bottom: #3C666B 10px solid;
   }
   .text-container__title{
     justify-self: center;
@@ -173,7 +173,7 @@
     font-size: 30px;
     font-weight:normal;
     line-height: 1.1;
-    text-align: center;
+    text-align: left;
     padding: 0;
     margin: 0;
     color: #3C666B;

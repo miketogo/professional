@@ -12,7 +12,7 @@
  ;
 }
 .menu__dropdown-box:hover .menu__button{
-  background-color: #778073;
+  background-color: #428277;
   cursor: pointer;
 }
 @media(max-width: 1350px){

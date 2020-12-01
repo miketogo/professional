@@ -1,7 +1,7 @@
 .cards__item{
   width: 375px;
   height: 290px;
-  background-color: #8F998A;
+  background-color: #3C666B;
   margin: 47px 32px 0 0;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,8 @@
   background-color: #E6E6E6;
   filter: unset;
   align-items: center;
-  border-bottom: #8F998A solid 5px;
-  border-top: #8F998A solid 5px;
+  border-bottom: #3C666B solid 5px;
+  border-top: #3C666B solid 5px;
   height: 150px;
 }
 .cards__item-links{
@@ -34,7 +34,7 @@
     overflow: hidden;
   }
   .cards__item:hover{
-    background-color: #778073;
+    background-color: #54AEB8;
     cursor: pointer;
   }
 }
@@ -54,7 +54,7 @@
     overflow: hidden;
   }
   .cards__item:hover{
-    background-color: #778073;
+    background-color: #54AEB8;
     cursor: pointer;
   }
   .cards__item-link{
@@ -63,8 +63,8 @@
     background-color: #E6E6E6;
     filter: unset;
     align-items: center;
-    border-bottom: #8F998A solid 5px;
-    border-top: #8F998A solid 5px;
+    border-bottom: #3C666B solid 5px;
+    border-top: #3C666B solid 5px;
     height: 150px;
   }
   .cards__item-links{
@@ -93,8 +93,8 @@
     background-color: #E6E6E6;
     filter: unset;
     align-items: center;
-    border-bottom: #8F998A solid 5px;
-    border-top: #8F998A solid 5px;
+    border-bottom: #3C666B solid 5px;
+    border-top: #3C666B solid 5px;
   }
 }
 

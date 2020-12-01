@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   height: 102px;
-  background: #9BA695;
+  background:#3C666B;
   justify-content: center;
   transition: height 0.3s ease-in-out;
 }

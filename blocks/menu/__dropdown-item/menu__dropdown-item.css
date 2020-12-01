@@ -10,12 +10,12 @@
   position: relative;
   bottom: 1000px;
   left: 0px;
-  background-color: #778073;
+  background-color: #428277;
   border-top: solid 1px #e6e6e6;
   text-decoration: none;
 }
 .menu__dropdown-item:hover{
-  background-color: #9AA695;
+  background-color: #54AEB8;
   cursor: pointer;
 }
 .menu__dropdown-item_type_accounts{

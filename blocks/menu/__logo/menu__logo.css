@@ -8,6 +8,7 @@
   transition: background-image 0.3s ease-in-out 0.2s;
   transition: width 0.3s ease-in-out;
   transition: height 0.3s ease-in-out;
+  z-index: 10;
 }
 
 @media (max-width: 1350px){
