@@ -77,125 +77,128 @@
 </head>
 <body class="root">
   <header class="header">
-      <nav class="menu">
-        <div class="menu__burger">
-          <span class="menu__burger-line"></span>
-          <span class="menu__burger-line"></span>
-          <span class="menu__burger-line"></span>
+    <nav class="menu">
+      <div class="menu__burger">
+        <span class="menu__burger-line"></span>
+        <span class="menu__burger-line"></span>
+        <span class="menu__burger-line"></span>
 
+      </div>
+      <div class="background-darker"
+           id="background-darker"
+           ontouchstart="backgroundHendleTouchStrat(event)"
+           ontouchmove="backgroundHendleTouchMove(event)"
+           ontouchend="backgroundHendleTouchEnd(event)">
+      </div>
+
+      <nav class="swipe-menu"
+      id="swipe-menu"
+      ontouchstart="swipeMenuHendleTouchStrat(event)"
+      ontouchmove="swipeMenuHendleTouchMove(event)"
+      ontouchend="swipeMenuHendleTouchEnd(event)">
+        <div class="swipe-menu__up-container">
+          <a class="swipe-menu__logo_touch-zone" href="./index.html">
+            <div class="swipe-menu__logo swipe-menu__logo_type_new-year"></div>
+          </a>
+          <div class="swipe-menu__exit_touch-zone">
+            <span class="swipe-menu__exit"></span>
+          </div>
         </div>
-        <div class="background-darker"
-             id="background-darker"
-             ontouchstart="backgroundHendleTouchStrat(event)"
-             ontouchmove="backgroundHendleTouchMove(event)"
-             ontouchend="backgroundHendleTouchEnd(event)">
-        </div>
-
-        <nav class="swipe-menu"
-        id="swipe-menu"
-        ontouchstart="swipeMenuHendleTouchStrat(event)"
-        ontouchmove="swipeMenuHendleTouchMove(event)"
-        ontouchend="swipeMenuHendleTouchEnd(event)">
-          <div class="swipe-menu__up-container">
-            <a class="swipe-menu__logo_touch-zone" href="./index.html">
-              <div class="swipe-menu__logo swipe-menu__logo_type_new-year"></div>
-            </a>
-            <div class="swipe-menu__exit_touch-zone">
-              <span class="swipe-menu__exit"></span>
-            </div>
-          </div>
-          <nav class="swipe-menu__text-container">
-            <a class="swipe-menu__link" href="./about-links.html">
-              <h2 class="swipe-menu__link-text">О компании</h2>
-            </a>
-            <a class="swipe-menu__link" href="#">
-              <h2 class="swipe-menu__link-text">Услуги</h2>
-            </a>
-            <a class="swipe-menu__link" href="#">
-              <h2 class="swipe-menu__link-text">Контакты</h2>
-            </a>
-            <a class="swipe-menu__link" href="#">
-              <h2 class="swipe-menu__link-text">Документы</h2>
-            </a>
-          </nav>
-          <a class="swipe-menu__down-container" href="./index.html">
-            <div class="swipe-menu__logo-down swipe-menu__logo-down_type_new-year"></div>
+        <nav class="swipe-menu__text-container">
+          <a class="swipe-menu__link" href="./about-links.html">
+            <h2 class="swipe-menu__link-text">О компании</h2>
+          </a>
+          <a class="swipe-menu__link" href="#">
+            <h2 class="swipe-menu__link-text">Услуги</h2>
+          </a>
+          <a class="swipe-menu__link" href="#">
+            <h2 class="swipe-menu__link-text">Контакты</h2>
+          </a>
+          <a class="swipe-menu__link" href="#">
+            <h2 class="swipe-menu__link-text">Документы</h2>
           </a>
         </nav>
-
-        <nav class="menu__dropdown-box">
-          <div class="menu__button">
-            <p class="menu__text">О компании</p>
-          </div>
-          <a class="menu__dropdown-item" href="./about.html">
-            <h3 class="menu__dropdown-text">Общая Информация</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text">Контакты</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text">Перечень мкд</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text">Новости</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text">Раскрытие Информации</h3>
-          </a>
-        </nav>
-        <nav class="menu__dropdown-box">
-          <div class="menu__button" >
-            <p class="menu__text">Услуги</p>
-          </div>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Общая Информация</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Контакты</h3>
-          </a>
-          <a class="menu__dropdown-item" >
-            <h3 class="menu__dropdown-text">Перечень мкд</h3>
-          </a>
-        </nav>
-        <a class="menu__logo menu__logo_type_new_year"  href="./index.html"></a>
-        <nav class="menu__dropdown-box">
-          <div class="menu__button">
-            <p class="menu__text">Контакты</p>
-          </div>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text">Общая Информация</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text">Контакты</h3>
-          </a>
-        </nav>
-        <nav class="menu__dropdown-box">
-          <div class="menu__button" id="last-button">
-            <p class="menu__text">Документы</p>
-          </div>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Общая Информация</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Контакты</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Перечень мкд</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Новости</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Раскрытие Информации</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-            <h3 class="menu__dropdown-text" >Раскрытие Информации</h3>
-          </a>
-          <a class="menu__dropdown-item" href="#">
-              <h3 class="menu__dropdown-text" >Раскрытие Информации</h3>
-          </a>
-        </nav>
+        <a class="swipe-menu__down-container" href="./index.html">
+          <div class="swipe-menu__logo-down swipe-menu__logo-down_type_new-year"></div>
+        </a>
       </nav>
+
+      <nav class="menu__dropdown-box">
+        <div class="menu__button">
+          <p class="menu__text">О компании</p>
+        </div>
+        <a class="menu__dropdown-item" href="./about.html">
+          <h3 class="menu__dropdown-text">Общая Информация</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text">Перечень мкд</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text">Новости</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text">Раскрытие Информации</h3>
+        </a>
+      </nav>
+      <nav class="menu__dropdown-box">
+        <div class="menu__button" >
+          <p class="menu__text">Услуги</p>
+        </div>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text" >Коммунальные</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text" >Сантехнические</h3>
+        </a>
+        <a class="menu__dropdown-item" >
+          <h3 class="menu__dropdown-text">Электротехнические</h3>
+        </a>
+        <a class="menu__dropdown-item" >
+          <h3 class="menu__dropdown-text">Дополительные</h3>
+        </a>
+        <a class="menu__dropdown-item" >
+          <h3 class="menu__dropdown-text">Документы и согласования</h3>
+        </a>
+        <a class="menu__dropdown-item" >
+          <h3 class="menu__dropdown-text">Аварийное обслуживание</h3>
+        </a>
+      </nav>
+      <a class="menu__logo menu__logo_type_new_year"  href="./index.html"></a>
+      <nav class="menu__dropdown-box">
+        <div class="menu__button">
+          <p class="menu__text">Контакты</p>
+        </div>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text">Общая Информация</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text">Контакты</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text">FAQ</h3>
+        </a>
+      </nav>
+      <nav class="menu__dropdown-box">
+        <div class="menu__button" id="last-button">
+          <p class="menu__text">Документы</p>
+        </div>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text" >Ново-Александровская</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text" >Стрельбищенская</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text" >Илмаринен</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text" >Бухгалтерские отчеты</h3>
+        </a>
+        <a class="menu__dropdown-item" href="#">
+          <h3 class="menu__dropdown-text" >Материалы собраний</h3>
+        </a>
+      </nav>
+    </nav>
   </header>
   <main class="main">
     <section class="cards cards-link"

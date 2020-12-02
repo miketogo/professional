@@ -7,21 +7,23 @@ let image_left = document.querySelector('.banner__container_content_left');
 let image_right = document.querySelector('.banner__container_content_right');
 let title = document.querySelector('.banner__title');
 let subtitle = document.querySelector('.banner__subtitle');
+let button = document.querySelector('.banner__button');
 let i = 0;
 let left = 5;
 let right = 1;
 let cheeck = 0;
 let banner__array = [
-  { title: 'Какое-то предложение1',subtitle: 'Чтото напсианно снизу 1' , scrol_id:'#scrol-item0', content_id:'#banner__container_content_0', content_:'./images/banner/profes.png'},
-  { title: 'Арендуйте паркинг!',subtitle: 'Устали искать место?' , scrol_id:'#scrol-item1', content_id:'#banner__container_content_1', content_:'./images/banner/parking.png'},
-  { title: 'Какое-то предложение3',subtitle: 'Чтото напсианно снизу 3' , scrol_id:'#scrol-item2', content_id:'#banner__container_content_2', content_:'./images/banner/profes.png'},
-  { title: 'Covid-2019',subtitle: 'Ограничения работы Ук' , scrol_id:'#scrol-item3', content_id:'#banner__container_content_3', content_:'./images/banner/covid.png'},
-  { title: 'Какое-то предложение5',subtitle: 'Чтото напсианно снизу 5' , scrol_id:'#scrol-item4', content_id:'#banner__container_content_4', content_:'./images/banner/test.png'},
-  { title: 'Какое-то предложение6',subtitle: 'Чтото напсианно снизу 6' , scrol_id:'#scrol-item5', content_id:'#banner__container_content_5', content_:'./images/banner/novoal.png'},
+  { title: 'Какое-то предложение1',subtitle: 'Чтото напсианно снизу 1' , scrol_id:'#scrol-item0', content_id:'#banner__container_content_0', content_:'./images/banner/profes.png', bannerHref: '#1'},
+  { title: 'Арендуйте паркинг!',subtitle: 'Устали искать место?' , scrol_id:'#scrol-item1', content_id:'#banner__container_content_1', content_:'./images/banner/parking.png', bannerHref: '#2'},
+  { title: 'Какое-то предложение3',subtitle: 'Чтото напсианно снизу 3' , scrol_id:'#scrol-item2', content_id:'#banner__container_content_2', content_:'./images/banner/profes.png', bannerHref: '#3'},
+  { title: 'Covid-2019',subtitle: 'Ограничения работы Ук' , scrol_id:'#scrol-item3', content_id:'#banner__container_content_3', content_:'./images/banner/covid.png', bannerHref: '#4'},
+  { title: 'Какое-то предложение5',subtitle: 'Чтото напсианно снизу 5' , scrol_id:'#scrol-item4', content_id:'#banner__container_content_4', content_:'./images/banner/test.png', bannerHref: '#5'},
+  { title: 'Какое-то предложение6',subtitle: 'Чтото напсианно снизу 6' , scrol_id:'#scrol-item5', content_id:'#banner__container_content_5', content_:'./images/banner/novoal.png', bannerHref: '#6'},
 ]
 title.textContent = banner__array[i].title;
 subtitle.textContent = banner__array[i].subtitle;
 image_center.src =banner__array[i].content_;
+button.href = banner__array[i].bannerHref;
 $(".banner__heandler").attr("disabled", true);
 setTimeout(
   () => {
@@ -39,6 +41,7 @@ setTimeout(
       $(banner__array[i].scrol_id).toggleClass('banner__scrol-item_active');
       $('.banner__container_content').toggleClass('banner__container_content_translate-left');
       $('.banner__container_content_right').toggleClass('banner__container_content_translate-left');
+      button.href = banner__array[i].bannerHref;
       setTimeout(
         () => {
           image_center.src = banner__array[right].content_;
@@ -93,6 +96,7 @@ setTimeout(
     $(banner__array[i].scrol_id).toggleClass('banner__scrol-item_active');
     $('.banner__container_content').toggleClass('banner__container_content_translate-left');
     $('.banner__container_content_right').toggleClass('banner__container_content_translate-left');
+    button.href = banner__array[i].bannerHref;
     setTimeout(
       () => {
         image_center.src = banner__array[right].content_;
@@ -141,6 +145,7 @@ setTimeout(
 
         $('.banner__container_content').toggleClass('banner__container_content_translate-right');
         $('.banner__container_content_left').toggleClass('banner__container_content_translate-right');
+        button.href = banner__array[i].bannerHref;
         setTimeout(
           () => {
             image_center.src = banner__array[left].content_;
@@ -197,6 +202,7 @@ setTimeout(
 
             $('.banner__container_content').toggleClass('banner__container_content_translate-right');
             $('.banner__container_content_left').toggleClass('banner__container_content_translate-right');
+            button.href = banner__array[i].bannerHref;
             setTimeout(
               () => {
                 image_center.src = banner__array[left].content_;
@@ -239,6 +245,7 @@ setTimeout(
         $(banner__array[i].scrol_id).toggleClass('banner__scrol-item_active');
         $('.banner__container_content').toggleClass('banner__container_content_translate-left');
         $('.banner__container_content_right').toggleClass('banner__container_content_translate-left');
+        button.href = banner__array[i].bannerHref;
         setTimeout(
           () => {
             image_center.src = banner__array[right].content_;
